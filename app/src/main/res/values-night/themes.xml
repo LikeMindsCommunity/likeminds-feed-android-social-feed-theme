@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LikeMindsSocialFeedExample" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/lm_feed_majorelle_blue</item>
+        <item name="colorPrimaryDark">@color/lm_feed_maastricht_blue_40</item>
+        <item name="colorAccent">@color/lm_feed_majorelle_blue</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
