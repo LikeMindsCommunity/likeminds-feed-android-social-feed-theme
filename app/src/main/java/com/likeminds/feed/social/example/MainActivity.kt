@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val apiKey = "fb082b0d-7e82-432a-8365-982ea1b5dda2" // api key generated from the dashboard
-        val userName = "Ishaan" // name of the user
-        val userId = "user-2" // id of the user
+        val apiKey = "" // api key generated from the dashboard
+        val userName = "" // name of the user
+        val userId = "" // id of the user
         val context = this // instance of context
 
         // pass this successCallback to LMFeedCore.showFeed()
