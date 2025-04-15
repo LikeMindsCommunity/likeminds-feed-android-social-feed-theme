@@ -2,10 +2,7 @@ package com.likeminds.feed.social.example
 
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.likeminds.feed.android.core.LMFeedCore
 import com.likeminds.feed.android.core.socialfeed.view.LMFeedSocialFeedFragment
 import com.likeminds.feed.android.core.utils.user.UserResponse
@@ -15,13 +12,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val apiKey = "" // api key generated from the dashboard
-        val userName = "" // name of the user
-        val userId = "" // id of the user
+        val apiKey = "fb082b0d-7e82-432a-8365-982ea1b5dda2" // api key generated from the dashboard
+        val userName = "Ishaan" // name of the user
+        val userId = "aaaabbbbcccc" // id of the user
         val context = this // instance of context
 
         // pass this successCallback to LMFeedCore.showFeed()
-        val successCallback = { response : UserResponse? ->
+        val successCallback = { response: UserResponse? ->
             // inflate social feed fragment in your activity
             val containerViewId = R.id.frame_layout
             val fragment = LMFeedSocialFeedFragment.getInstance()
